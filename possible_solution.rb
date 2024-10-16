@@ -1,5 +1,8 @@
 require "http"
 require "json"
+require "dotenv"
+GMAPS_KEY = "AIzaSyDKz4Y3bvrTsWpPRNn9ab55OkmcwZxLOHI"
+PIRATE_WEATHER_KEY = "3RrQrvLmiUayQ84JSxL8D2aXw99yRKlx1N4qFDUE"
 
 line_width = 40
 
@@ -98,3 +101,5 @@ if any_precipitation == true
 else
   puts "You probably won't need an umbrella."
 end
+require "http"
+require "json"
